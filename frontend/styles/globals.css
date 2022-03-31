@@ -1,0 +1,34 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  max-width: 1170px;
+  margin: 0 auto;
+  font-family: "roboto400";
+  background-color: #fffdf5;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "roboto100";
+  src: url("./fonts/roboto100.ttf");
+}
+
+@font-face {
+  font-family: "roboto300";
+  src: url("./fonts/roboto300.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "roboto400";
+  src: url("./fonts/roboto400.ttf") format("truetype");
+}

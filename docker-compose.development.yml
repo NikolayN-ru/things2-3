@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+
+  backend:
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build: ./frontend
+    container_name: frontend-nextjs
+    command: npm run dev
+    restart: unless-stopped
+    volumes:
+      - ./frontend/pages:/app/pages
+      - ./frontend/src:/app/src
+      - ./frontend/styles:/app/styles
+    ports:
+      - "3000:3000"
+    # environment:
+    #   - PORT=3000
+  

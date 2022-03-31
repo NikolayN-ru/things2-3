@@ -1,0 +1,129 @@
+.wrapper {
+  padding-top: 30px;
+  margin-bottom: 30px;
+  min-height: 80vh;
+  position: relative;
+  overflow: hidden;
+
+  .ellipse{
+    position: absolute;
+    right: -110px;
+    top: 300px;
+    transition: all 0.3s;
+
+    &:hover {
+      opacity: 0.5;
+    }
+
+  }
+
+  .cartHeader {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 30px;
+
+    .title {
+      margin-left: 50px;
+      font-family: "roboto100";
+      font-size: 40px;
+      line-height: 87.3%;
+      color: #121212;
+    }
+
+    .cart {
+      margin-left: 16px;
+      position: relative;
+
+      .length {
+        color: #514a7e;
+        position: absolute;
+        right: -12px;
+        top: -9px;
+      }
+    }
+  }
+  .items {
+    max-width: 874px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+    cursor: pointer;
+
+    .itemsItem {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      transition: 0.3s;
+      padding: 20px;
+
+      .image {
+        width: 178px;
+        height: 165px;
+        overflow: hidden;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 14px;
+        line-height: 118%;
+        color: #7d7d7d;
+        align-items: center;
+        font-family: "roboto100";
+
+        .icons {
+          display: flex;
+          gap: 10px;
+		  align-items: center;
+
+          button {
+            padding: 10px;
+            background-color: #fffdf500;
+            border: none;
+            font-family: "roboto100";
+			transition: 0.2s;
+          }
+		  button:hover {
+			  color:rgba(165, 14, 97, 0.979);
+			  transform: scale(1.2);
+		  }
+        }
+      }
+
+      .coast {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+
+        span {
+          font-size: 20px;
+          line-height: 23px;
+          margin-bottom: 30px;
+        }
+        p {
+          color: #514a7e;
+          font-size: 40px;
+          margin-bottom: 30px;
+        }
+        h4 {
+          font-size: 12px;
+          line-height: 118%;
+          color: #514a7e;
+        }
+      }
+    }
+
+    .itemsItem:hover {
+      background-color: #fffdf5;
+      filter: drop-shadow(0px 4px 10px rgba(81, 74, 126, 0.2));
+    }
+  }
+}

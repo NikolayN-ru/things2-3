@@ -1,0 +1,67 @@
+.catalog {
+  min-height: 70vh;
+}
+
+.title {
+  font-family: "roboto100";
+  font-size: 40px;
+  margin-top: 60px;
+  color: #121212;
+  margin-bottom: 60px;
+}
+
+.sortedItems {
+  display: flex;
+  gap: 35px;
+  margin-bottom: 60px;
+}
+
+.sortedItems p {
+  color: #7d7d7d;
+}
+.sortedItems li {
+  cursor: pointer;
+}
+
+.sortedItems li:hover {
+  color: #6f65ac;
+}
+
+.cards {
+  display: flex;
+  gap: 60px;
+}
+
+.menuItems {
+  margin-bottom: 30px;
+  li:first-child {
+    color: #7d7d7d;
+    text-align: center;
+    margin-right: 14px;
+    margin-bottom: 30px;
+    max-width: 50px;
+    
+    &:hover {
+      color: #471575;
+    }
+  }
+
+  li {
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+}
+
+.activeLink {
+  color: #921fd4;
+}
+
+.menuItems li:hover {
+  color: #6f65ac;
+}
+
+.cardsBlock {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}

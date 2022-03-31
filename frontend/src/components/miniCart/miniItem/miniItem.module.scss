@@ -1,0 +1,15 @@
+.itemBlock {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  align-items: center;
+
+  img {
+    background-size: cover;
+    // width: 120px;
+    height: 100px;
+  }
+}
+.itemBlock:hover {
+  box-shadow: 0px 10px 30px rgba(185, 185, 192, 0.99);
+}

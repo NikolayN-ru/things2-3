@@ -1,0 +1,150 @@
+.itemId {
+  margin-top: 60px;
+  margin-bottom: 100px;
+  /* background-color: #fffdf5; */
+}
+
+.itemId h1 {
+  color: #121212;
+  font-size: 40px;
+  font-family: "roboto100";
+}
+
+.title {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+  margin-bottom: 60px;
+}
+.title span {
+  color: #7d7d7d;
+}
+
+.mainCard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 113px;
+}
+
+.mainImage {
+  width: 575px;
+  /* height: 572px; */
+  background-color: rgba(163, 130, 130, 0.363);
+  margin-bottom: 30px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.imageItems {
+  display: flex;
+  gap: 27px;
+  margin-bottom: 30px;
+}
+.imageItems li {
+  width: 130px;
+  height: 110px;
+  background-color: rgba(163, 130, 130, 0.363);
+
+  img {
+    width: 100%;
+  }
+}
+
+.mainDesc {
+  display: flex;
+  flex-direction: column;
+}
+.mainOffer {
+  font-size: 40px;
+  font-family: "roboto100";
+  margin-bottom: 40px;
+}
+
+.nameColor {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.colors {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.colors li {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.178);
+  cursor: pointer;
+}
+
+.mainSize {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 30px;
+}
+
+.mainSize li {
+  padding: 5px 10px;
+  border: 1px solid #514a7e;
+  text-align: center;
+  width: 35px;
+  height: 42px;
+  cursor: pointer;
+}
+.mainSize li:hover {
+  background-color: rgb(189, 177, 177);
+}
+
+.mainSize li p {
+  color: #514a7e;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.mainSize li span {
+  color: #7d7d7d;
+  font-size: 8px;
+  line-height: 9px;
+}
+
+.tableSize {
+  color: #514a7e;
+  text-decoration: underline;
+  margin-bottom: 42px;
+}
+.blockBtn {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.btn {
+  width: 150px;
+  height: 37px;
+  background-color: #514a7e;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  // background-color: #fff;
+  transform: scale(1.1);
+  background-color: #64307a;
+}
+
+.btn img {
+  margin-left: 10px;
+}
+
+.description {
+  margin-top: 10px;
+  color: #7d7d7d;
+  font-family: "roboto300";
+  max-width: 450px;
+  margin-bottom: 20px;
+}

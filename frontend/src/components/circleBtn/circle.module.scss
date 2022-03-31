@@ -1,0 +1,18 @@
+.circle {
+	width: 43px;
+	height: 43px;
+	border-radius: 50%;
+	background-color: #514A7E;
+	text-align: center;
+	padding-top: 13px;
+	margin-left: 30px;
+	transition: 0.3s;
+	cursor: pointer;
+	filter: drop-shadow(0px 4px 10px rgba(81, 74, 126, 0.4));
+}
+
+.circle:hover {
+	transform: rotate(90deg);
+	filter: drop-shadow(0px 4px 15px rgba(81, 74, 126, 0.8));
+}
+

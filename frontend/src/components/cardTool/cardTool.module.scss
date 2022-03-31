@@ -1,0 +1,62 @@
+.card {
+	max-width: 280px;
+	display: flex;
+	flex-direction: column;
+	transition: all 0.3s;
+	a {
+		margin-bottom: auto;
+	  img {
+		width: 280px;
+	  }
+	}
+  }
+  
+  .card:hover {
+	box-shadow: 0px 10px 30px rgba(185, 185, 192, 0.99);
+  }
+  
+  .image {
+  }
+  
+  .offer {
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .icon {
+	display: flex;
+	gap: 20px;
+  }
+  
+  .card > span {
+	color: #7d7d7d;
+	padding-left: 10px;
+  }
+  .bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 10px;
+	margin-bottom: 20px;
+  }
+  
+  .bottom ul {
+	display: flex;
+	gap: 5px;
+  }
+  
+  .btn {
+	margin-top: 13px;
+	border: 1px solid #514a7e;
+	width: 150px;
+	height: 37px;
+	text-align: center;
+	background-color: #fffdf5;
+	margin-left: 10px;
+  }
+  
+  .btn img {
+	margin-left: 10px;
+  }
+  

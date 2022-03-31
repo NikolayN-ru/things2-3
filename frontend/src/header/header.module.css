@@ -1,0 +1,32 @@
+.header {
+  /* max-width: 1170px; */
+  display: flex;
+  justify-content: space-between;
+  font-family: "roboto300";
+  /* margin: 0 auto; */
+  margin-top: 48px;
+}
+
+.mainMenu {
+  display: flex;
+  gap: 20px;
+  color: #747474;
+}
+.link {
+  cursor: pointer;
+  font-family: "roboto400";
+}
+
+.link:hover {
+  color: #514a7e;
+}
+
+.topPanel {
+  display: flex;
+  gap: 18px;
+}
+
+.active {
+  color: #921fd4;
+  font-family: "roboto400"
+}

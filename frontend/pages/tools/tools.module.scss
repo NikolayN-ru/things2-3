@@ -1,0 +1,35 @@
+.wrapItems {
+  min-height: 80vh;
+  .tools {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
+  .wrapItemsMenu {
+    display: flex;
+    gap: 30px;
+    .wrapItemsMenuLeft {
+      width: 200px;
+
+      ul {
+        li {
+          color:rgb(147, 134, 148);
+          margin-bottom: 20px;
+          cursor: pointer;
+          transition: 0.3s all;
+        }
+        li:hover {
+          color: rgb(86, 64, 185);
+        }
+      }
+    }
+
+    .items {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+  }
+}

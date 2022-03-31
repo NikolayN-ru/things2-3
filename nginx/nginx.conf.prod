@@ -1,0 +1,39 @@
+server {
+	
+    client_max_body_size 100M;
+
+	listen 80;
+
+	server_name lk.com;
+
+	location / {
+		proxy_pass http://frontend:3000;
+
+		proxy_http_version 1.1;
+    	proxy_set_header Upgrade $http_upgrade;
+    	proxy_set_header Connection "upgrade";
+	}
+
+	location /api/category {
+		proxy_pass http://backend:8000/api/category;
+	}
+
+	location /api {
+		proxy_pass http://backend:8000/api;
+	
+	}
+
+	location /admin {
+		proxy_pass http://backend:8000/admin;
+	}
+
+	location /main {
+		proxy_pass http://backend:8000/main;
+
+	}
+
+	location /media {
+		proxy_pass http://backend:8000/media;
+	}
+
+}
